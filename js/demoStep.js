@@ -192,6 +192,7 @@ var nombreJugador = document.getElementById("nombre").value
     "¿Te gusta ponerte desafíos? Prepara con nosotros tu título oficial de francés reconocido internacionalmente y para siempre";
     document.getElementById("myImg").src = 
     "assets/pavard-A.jpg";
+    document.getElementById("target").href = "http://www.institutfrancais.es/madrid/cursosdefrances/adultos/preparacion-examenes-oficiales-frances/";
     
   }
   if (Profil2 == 2) {
@@ -201,7 +202,7 @@ var nombreJugador = document.getElementById("nombre").value
     "El curso que te corresponde es el intensivo de francés. ¡Sube un nivel en un mes o 15 días!";
     document.getElementById("myImg").src = 
     "assets/mbape.jpg";
-    document.getElementById("target").href = "https://google.com";
+    document.getElementById("target").href = "http://www.institutfrancais.es/madrid/cursosdefrances/adultos/cursos-intensivos-frances-adultos/";
     
   }
   if (Profil3 == 1) {
@@ -211,7 +212,7 @@ var nombreJugador = document.getElementById("nombre").value
     "¿Te gusta ponerte desafíos? Prepara con nosotros tu título oficial de francés reconocido internacionalmente y para siempre";
     document.getElementById("myImg").src = 
     "assets/pavard-A.jpg";
-    document.getElementById("target").href = "https://google.com";
+    document.getElementById("target").href = "http://www.institutfrancais.es/madrid/cursosdefrances/adultos/preparacion-examenes-oficiales-frances/";
     
   }
   if (Profil4 == 2) {
@@ -221,7 +222,7 @@ var nombreJugador = document.getElementById("nombre").value
     "3 horas por semana a tu ritmo, y vuélvete un más francés poco a poco";
     document.getElementById("myImg").src = 
     "assets/Ngolo.jpg";
-    document.getElementById("target").href = "https://google.com";
+    document.getElementById("target").href = "http://www.institutfrancais.es/madrid/cursosdefrances/adultos/curso-frances-general-adultos/";
     
   }
    if (Profil5 == 2) {
@@ -231,7 +232,7 @@ var nombreJugador = document.getElementById("nombre").value
     "El curso que te corresponde es el intensivo de francés. ¡Sube un nivel en un mes o 15 días!";
     document.getElementById("myImg").src = 
     "assets/mbape.jpg";
-    document.getElementById("target").href = "https://google.com";
+    document.getElementById("target").href = "http://www.institutfrancais.es/madrid/cursosdefrances/adultos/cursos-intensivos-frances-adultos/";
     
   }
     if (Profil6 == 2) {
@@ -241,7 +242,7 @@ var nombreJugador = document.getElementById("nombre").value
     "A ti te gusta vivir las experiencias en una inmersión 100% francesa, prueba nuestros talleres lingüísticos y culturales";
     document.getElementById("myImg").src = 
     "assets/varane-A.jpg";
-    document.getElementById("target").href = "https://google.com";
+    document.getElementById("target").href = "http://www.institutfrancais.es/madrid/cursosdefrances/adultos/talleres-frances-especializado/";
     
   }
 
@@ -252,7 +253,7 @@ var nombreJugador = document.getElementById("nombre").value
     "3 horas por semana a tu ritmo, y vuélvete un más francés poco a poco";
     document.getElementById("myImg").src = 
     "assets/Ngolo.jpg";
-    document.getElementById("target").href = "https://google.com";
+    document.getElementById("target").href = "http://www.institutfrancais.es/madrid/cursosdefrances/adultos/curso-frances-general-adultos/";
     
   }
     if (Profil8 == 1) {
@@ -262,7 +263,7 @@ var nombreJugador = document.getElementById("nombre").value
     "A ti te gusta vivir las experiencias en una inmersión 100% francesa, prueba nuestros talleres lingüísticos y culturales";
     document.getElementById("myImg").src = 
     "assets/varane-A.jpg";
-    document.getElementById("target").href = "https://google.com";
+    document.getElementById("target").href = "http://www.institutfrancais.es/madrid/cursosdefrances/adultos/talleres-frances-especializado/";
     
   }
 
