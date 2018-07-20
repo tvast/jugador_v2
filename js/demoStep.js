@@ -53,8 +53,7 @@ function grabIt1() {
       
   }
   if(checkbox == false) {
-    // document.getElementById("input1").innerHTML = "Vous pouvez apprendre le français pour voyager et apprécier la culture du pays";
-    // document.getElementById("input2").innerHTML = "Et si vous vous inscriviez à un cous de français ?";
+    
       Profil5-- ;
       Profil6-- ;
       Profil7-- ;
