@@ -1,0 +1,239 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+h1{
+	font-size: 6em;	
+} 
+
+/*.text {
+	font-family: 'EB Garamond', serif;
+	text-align: center;
+}*/
+
+.wizard {
+    margin: 20px auto;
+    background: #fff;
+}
+
+    .wizard .nav-tabs {
+        position: relative;
+        margin: 40px auto;
+        margin-bottom: 0;
+        border-bottom-color: #e0e0e0;
+    }
+
+    .wizard > div.wizard-inner {
+        position: relative;
+    }
+
+.connecting-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+span.round-tab i{
+    color:#555555;
+}
+.wizard li.active span.round-tab {
+    background: #fff;
+    border: 2px solid #5bc0de;
+    
+}
+.wizard li.active span.round-tab i{
+    color: #5bc0de;
+}
+
+span.round-tab:hover {
+    color: #333;
+    border: 2px solid #333;
+}
+
+.wizard .nav-tabs > li {
+    width: 25%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: #5bc0de;
+    transition: 0.1s ease-in-out;
+}
+
+.wizard li.active:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 1;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom-color: #5bc0de;
+}
+
+.wizard .nav-tabs > li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+    .wizard .nav-tabs > li a:hover {
+        background: transparent;
+    }
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 50px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+@media( max-width : 585px ) {
+
+    .wizard {
+        width: 90%;
+        height: auto !important;
+    }
+
+    span.round-tab {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard .nav-tabs > li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+}
+
+.rounded {
+    border-radius: 50%;
+    width:60px;
+    height: 60px;
+    border:2px ;
+    bordercolor:#000000 ;
+}
+
+.background {
+    /*background-image: url(1008980.jpg);
+    background-repeat: no-repeat;
+    width: 100%;*/
+
+    background: url(1008980.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* -webkit-filter: contrast(110%) brightness(110%) sepia(30%) grayscale(100%);
+  filter: contrast(110%) brightness(110%) sepia(30%) grayscale(100%);*/
+
+}
+
+/*.background::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0);
+}*/
+
+.soccer {
+  background: url(http://upload.wikimedia.org/wikipedia/en/e/ec/Soccer_ball.svg);
+  background-size: 100px 100px;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  -webkit-animation:roll 4.5s infinite;
+  -moz-animation:roll 4.5s infinite;
+  animation:roll 4.5s infinite;
+}
+
+@-moz-keyframes roll {  
+  0% {left:0px; -webkit-transform: rotate(-360deg);}
+  50% {left:1000px; -webkit-transform: rotate(360deg);}
+  100% {left:0px; -webkit-transform: rotate(-360deg);}
+}
+@-webkit-keyframes roll { 
+  0% {left:0px; -webkit-transform: rotate(-360deg);}
+  50% {left:1000px; -webkit-transform: rotate(360deg);}
+  100% {left:0px; -webkit-transform: rotate(-360deg);}
+}
+
+@keyframes roll { 
+  0% {left:0px; -webkit-transform: rotate(-360deg);}
+  50% {left:1000px; -webkit-transform: rotate(360deg);}
+  100% {left:0px; -webkit-transform: rotate(-360deg);}
+}
+
+.world-cup {
+  color: #82AE6F;
+  text-align: center;
+}
+
+.title {
+    font-family: 'Bungee Shade', cursive;
+/*font-family: 'Monoton', cursive;
+font-family: 'Black Ops One', cursive;*/
+}
+
