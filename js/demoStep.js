@@ -4,6 +4,10 @@ var Profil1= 0 ;
 var Profil2= 0 ;
 var Profil3= 0 ;
 var Profil4= 0;
+var Profil5= 0 ;
+var Profil6= 0 ;
+var Profil7= 0 ;
+var Profil8= 0;
 
 // Triggered first question
 document.getElementById("qui1").addEventListener("click", grabIt);  
@@ -12,20 +16,24 @@ function grabIt() {
 
 
   if (checkbox == true) {
-  		// document.getElementById("input1").innerHTML = "Pour un voyage en français vous pouvez utiliser notre produit : ";
-  		// document.getElementById("input2").innerHTML = "Cours intensif";
-      Profil1 ++
-      console.log(Profil1 + "Step1")
+
+      Profil1++ ;
+      Profil2++ ;
+      Profil3++ ;
+      Profil4++;
+     
   }
   if(checkbox == false) {
-  	// document.getElementById("input1").innerHTML = "Vous pouvez apprendre le français pour voyager et apprécier la culture du pays";
-  	// document.getElementById("input2").innerHTML = "Et si vous vous inscriviez à un cous de français ?";
-    Profil1 --
-    console.log(Profil1+"Step1 bis")
+  	
+      Profil1-- ;
+      Profil2-- ;
+      Profil3-- ;
+      Profil4-- ;
+    
   }
 
   else {
-    return Profil1
+    return console.log("goal !")
   }
 
 
@@ -37,70 +45,82 @@ function grabIt1() {
 
 
   if (checkbox == true) {
-      // document.getElementById("input1").innerHTML = "Pour un voyage en français vous pouvez utiliser notre produit : ";
-      // document.getElementById("input2").innerHTML = "Cours intensif";
-      Profil2 ++
-      console.log(Profil2 + "Step2")
+      
+      Profil5++ ;
+      Profil6++ ;
+      Profil7++ ;
+      Profil8++ ;
+      
   }
   if(checkbox == false) {
     // document.getElementById("input1").innerHTML = "Vous pouvez apprendre le français pour voyager et apprécier la culture du pays";
     // document.getElementById("input2").innerHTML = "Et si vous vous inscriviez à un cous de français ?";
-    Profil2 --
-    console.log(Profil2 + "Step2 bis")
+      Profil5-- ;
+      Profil6-- ;
+      Profil7-- ;
+      Profil8-- ;
+    
   }
 
   else {
-    return Profil1
+    return console.log("goal !")
   }
 
 
 }
-
+//Third question
 document.getElementById("qui3").addEventListener("click", grabIt2);  
 function grabIt2() {
   var checkbox = document.getElementById('qui3').checked;
 
 
   if (checkbox == true) {
-      // document.getElementById("input1").innerHTML = "Pour un voyage en français vous pouvez utiliser notre produit : ";
-      // document.getElementById("input2").innerHTML = "Cours intensif";
-      Profil1 ++
-      console.log(Profil1 + "Step3")
+      
+      Profil1++ ;
+      Profil2++ ;
+      Profil3-- ;
+      Profil4-- ;
+      
   }
   if(checkbox == false) {
-    // document.getElementById("input1").innerHTML = "Vous pouvez apprendre le français pour voyager et apprécier la culture du pays";
-    // document.getElementById("input2").innerHTML = "Et si vous vous inscriviez à un cous de français ?";
-    Profil1 --
-    console.log(Profil1 + "Step3 bis")
+     
+      Profil1-- ;
+      Profil2-- ;
+      Profil3++ ;
+      Profil4++ ;
   }
 
   else {
-    return Profil1
+    return console.log("goal !")
   }
 
 
 }
-
+//la réponse b
 document.getElementById("qui4").addEventListener("click", grabIt3);  
 function grabIt3() {
   var checkbox = document.getElementById('qui4').checked;
 
 
   if (checkbox == true) {
-      // document.getElementById("input1").innerHTML = "Pour un voyage en français vous pouvez utiliser notre produit : ";
-      // document.getElementById("input2").innerHTML = "Cours intensif";
-      Profil2 ++
-      console.log(Profil2 + "Step4")
+      
+      Profil5++ ;
+      Profil6++ ;
+      Profil7-- ;
+      Profil8-- ;
+      
   }
   if(checkbox == false) {
-    // document.getElementById("input1").innerHTML = "Vous pouvez apprendre le français pour voyager et apprécier la culture du pays";
-    // document.getElementById("input2").innerHTML = "Et si vous vous inscriviez à un cous de français ?";
-    Profil2 --
-    console.log(Profil2 + "Step4 bis")
+      
+      Profil5-- ;
+      Profil6-- ;
+      
+      Profil7++ ;
+      Profil8++ ;
   }
 
   else {
-    return Profil1
+    return console.log("goal !")
   }
 
 
@@ -112,20 +132,22 @@ function grabIt4() {
 
 
   if (checkbox == true) {
-      // document.getElementById("input1").innerHTML = "Pour un voyage en français vous pouvez utiliser notre produit : ";
-      // document.getElementById("input2").innerHTML = "Cours intensif";
-      Profil1 ++
-      console.log(Profil1 + "Step5")
+      
+      Profil1++ ;
+      Profil2-- ;
+      Profil3-- ;
+      Profil4++ ;
   }
   if(checkbox == false) {
-    // document.getElementById("input1").innerHTML = "Vous pouvez apprendre le français pour voyager et apprécier la culture du pays";
-    // document.getElementById("input2").innerHTML = "Et si vous vous inscriviez à un cous de français ?";
-    Profil1 --
-    console.log(Profil1 + "Step5 bis")
+    
+      Profil1-- ;
+      Profil2++ ;
+      Profil3++ ;
+      Profil4-- ;
   }
 
   else {
-    return Profil1
+    return console.log("goal !")
   }
 
 
@@ -137,37 +159,76 @@ function grabIt5() {
 
 
   if (checkbox == true) {
-      // document.getElementById("input1").innerHTML = "Pour un voyage en français vous pouvez utiliser notre produit : ";
-      // document.getElementById("input2").innerHTML = "Cours intensif";
-      Profil2 ++
-      console.log(Profil2 + "Step6")
+      
+      Profil5++ ;
+      Profil6-- ;
+      Profil7-- ;
+      Profil8++ ;
   }
   if(checkbox == false) {
-    // document.getElementById("input1").innerHTML = "Vous pouvez apprendre le français pour voyager et apprécier la culture du pays";
-    // document.getElementById("input2").innerHTML = "Et si vous vous inscriviez à un cous de français ?";
-    Profil2 --
-    console.log(Profil2 + "Step6 bis")
+    
+      Profil5-- ;
+      Profil6++ ;
+      Profil7++ ;
+      Profil8-- ;
   }
 
   else {
-    return Profil1
+    return console.log("goal !")
   }
 
 
 }
 
 function total() {
-
+console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
 var nombreJugador = document.getElementById("nombre").value
 console.log(nombreJugador)
 
-  if (Profil1 > Profil2) {
-    document.getElementById("input1").innerHTML = "Vous êtes attaquant " + " " +nombreJugador;
-    document.getElementById("input2").innerHTML = "Cours intensif";
+  if (Profil1 == 3) {
+    document.getElementById("input1").innerHTML = "Vous êtes latéral " + " " +nombreJugador;
+    document.getElementById("input2").innerHTML = "prepa examen";
+    return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
   }
-  if (Profil1 < Profil2) {
+  if (Profil2 == 2) {
+    document.getElementById("input1").innerHTML = "Vous êtes attaquant" + " " +nombreJugador;
+    document.getElementById("input2").innerHTML = "Intensif";
+    return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
+  }
+  if (Profil3 == 1) {
+    document.getElementById("input1").innerHTML = "Vous êtes latéral" + " " +nombreJugador;
+    document.getElementById("input2").innerHTML = "prepa examen";
+    return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
+  }
+  if (Profil4 == 2) {
+    document.getElementById("input1").innerHTML = "Vous êtes milieu" + " " +nombreJugador;
+    document.getElementById("input2").innerHTML = "français général";
+    return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
+  }
+   if (Profil5 == 2) {
+    document.getElementById("input1").innerHTML = "Vous êtes attaquant" + " " +nombreJugador;
+    document.getElementById("input2").innerHTML = "intensif";
+    return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
+  }
+    if (Profil6 == 2) {
     document.getElementById("input1").innerHTML = "Vous êtes défenseur" + " " +nombreJugador;
-    document.getElementById("input2").innerHTML = "Séjour";
+    document.getElementById("input2").innerHTML = "atelier";
+    return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
+  }
+
+  if (Profil7 == 1) {
+    document.getElementById("input1").innerHTML = "Vous êtes milieu" + " " +nombreJugador;
+    document.getElementById("input2").innerHTML = "français général";
+    return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
+  }
+    if (Profil8 == 1) {
+    document.getElementById("input1").innerHTML = "Vous êtes défenseur" + " " +nombreJugador;
+    document.getElementById("input2").innerHTML = "atelier";
+    return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
+  }
+
+    else {
+    return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
   }
 }
 
