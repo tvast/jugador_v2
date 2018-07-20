@@ -181,49 +181,57 @@ function grabIt5() {
 }
 
 function total() {
-console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
+
 var nombreJugador = document.getElementById("nombre").value
-console.log(nombreJugador)
+
 
   if (Profil1 == 3) {
-    document.getElementById("input1").innerHTML = "Vous êtes latéral " + " " +nombreJugador;
+    document.getElementById("input1").innerHTML = "¡Eres Benjamin Pavard! El campeón de las pasas decisivas." + " " +nombreJugador;
     document.getElementById("input2").innerHTML = "prepa examen";
+    document.getElementById("myImg").src = "assets/pavard-A.jpg";
     return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
   }
   if (Profil2 == 2) {
-    document.getElementById("input1").innerHTML = "Vous êtes attaquant" + " " +nombreJugador;
+    document.getElementById("input1").innerHTML = "¡Eres Kylian M’bappé! Muy rápido, no dudes cuando estas delante el portero. Muy rápido, eres explosivo." + " " +nombreJugador;
     document.getElementById("input2").innerHTML = "Intensif";
+    document.getElementById("myImg").src = "assets/mbape.jpg";
     return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
   }
   if (Profil3 == 1) {
-    document.getElementById("input1").innerHTML = "Vous êtes latéral" + " " +nombreJugador;
+    document.getElementById("input1").innerHTML = "¡Eres Benjamin Pavard! El campeón de las pasas decisivas." + " " +nombreJugador;
     document.getElementById("input2").innerHTML = "prepa examen";
+    document.getElementById("myImg").src = "assets/pavard-A.jpg";
     return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
   }
   if (Profil4 == 2) {
-    document.getElementById("input1").innerHTML = "Vous êtes milieu" + " " +nombreJugador;
+    document.getElementById("input1").innerHTML = "¡Eres Ngolo Kante! Tienes mucha paciencia, eres constante y regular." + " " +nombreJugador;
     document.getElementById("input2").innerHTML = "français général";
+    document.getElementById("myImg").src = "assets/Ngolo.jpg";
     return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
   }
    if (Profil5 == 2) {
-    document.getElementById("input1").innerHTML = "Vous êtes attaquant" + " " +nombreJugador;
+    document.getElementById("input1").innerHTML = "¡Eres Kylian M’bappé! Muy rápido, no dudes cuando estas delante el portero. Muy rápido, eres explosivo." + " " +nombreJugador;
     document.getElementById("input2").innerHTML = "intensif";
+    document.getElementById("myImg").src = "assets/mbape.jpg";
     return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
   }
     if (Profil6 == 2) {
-    document.getElementById("input1").innerHTML = "Vous êtes défenseur" + " " +nombreJugador;
+    document.getElementById("input1").innerHTML = " ¡Eres Raphaël Varane! Tienes paciencia y madurez." + " " +nombreJugador;
     document.getElementById("input2").innerHTML = "atelier";
+    document.getElementById("myImg").src = "assets/varane-A.jpg";
     return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
   }
 
   if (Profil7 == 1) {
-    document.getElementById("input1").innerHTML = "Vous êtes milieu" + " " +nombreJugador;
+    document.getElementById("input1").innerHTML = "¡Eres Ngolo Kante! Tienes mucha paciencia, eres constante y regular." + " " +nombreJugador;
     document.getElementById("input2").innerHTML = "français général";
+    document.getElementById("myImg").src = "assets/Ngolo.jpg";
     return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
   }
     if (Profil8 == 1) {
-    document.getElementById("input1").innerHTML = "Vous êtes défenseur" + " " +nombreJugador;
+    document.getElementById("input1").innerHTML = " ¡Eres Raphaël Varane! Tienes paciencia y madurez." + " " +nombreJugador;
     document.getElementById("input2").innerHTML = "atelier";
+    document.getElementById("myImg").src = "assets/varane-A.jpg";
     return console.log(Profil1+" - "+Profil2 +" - "+ Profil3 +" - "+ Profil4 +" - "+ Profil5 +" - "+ Profil6 +" - "+ Profil7 +" - "+ Profil8)
   }
 
