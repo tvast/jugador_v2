@@ -186,7 +186,7 @@ var nombreJugador = document.getElementById("nombre").value
 
   if (Profil1 == 3) {
     document.getElementById("input1").innerHTML = 
-    "Hola"+ " " +nombreJugador + "¡Eres Benjamin Pavard! El campeón de las pasas decisivas." 
+    "Hola"+ " " +nombreJugador + "¡Eres Benjamin Pavard! El campeón de los pases decisivos." 
     document.getElementById("input2").innerHTML = 
     "¿Te gusta ponerte desafíos? Prepara con nosotros tu título oficial de francés reconocido internacionalmente y para siempre";
     document.getElementById("myImg").src = 
@@ -196,7 +196,7 @@ var nombreJugador = document.getElementById("nombre").value
   }
   if (Profil2 == 2) {
     document.getElementById("input1").innerHTML = 
-    "Hola"+ " " +nombreJugador + "¡Eres Kylian M’Bappé! Muy rápido, no te lo piensas cuando estás delante del portero, marcas. Muy rápido, eres explosivo." + " " +nombreJugador;
+    "Hola"+ " " +nombreJugador + "¡Eres Kylian M’Bappé! Muy rápido, no te lo piensas cuando estás delante del portero, marcas. Muy rápido, eres explosivo."
     document.getElementById("input2").innerHTML = 
     "El curso que te corresponde es el intensivo de francés. ¡Sube un nivel en un mes o 15 días!";
     document.getElementById("myImg").src = 
@@ -206,7 +206,7 @@ var nombreJugador = document.getElementById("nombre").value
   }
   if (Profil3 == 1) {
     document.getElementById("input1").innerHTML = 
-    "Hola"+ " " +nombreJugador + "¡Eres Benjamin Pavard! El campeón de las pasas decisivas." + " " +nombreJugador;
+    "Hola"+ " " +nombreJugador + "¡Eres Benjamin Pavard! El campeón de los pases decisivos." 
     document.getElementById("input2").innerHTML =
     "¿Te gusta ponerte desafíos? Prepara con nosotros tu título oficial de francés reconocido internacionalmente y para siempre";
     document.getElementById("myImg").src = 
@@ -216,9 +216,9 @@ var nombreJugador = document.getElementById("nombre").value
   }
   if (Profil4 == 2) {
     document.getElementById("input1").innerHTML = 
-    "Hola"+ " " +nombreJugador + "¡Eres Ngolo Kante! Tienes mucha paciencia, eres constante y regular." + " " +nombreJugador;
+    "Hola"+ " " +nombreJugador + "¡Eres Ngolo Kante! Tienes mucha paciencia, eres constante y regular." 
     document.getElementById("input2").innerHTML = 
-    "3 horas por semana a tu ritmo, y vuélvete un más francés poco a poco";
+    "3 horas por semana a tu ritmo, y vuélvete más francés poco a poco";
     document.getElementById("myImg").src = 
     "assets/Ngolo.jpg";
     document.getElementById("target").href = "http://www.institutfrancais.es/madrid/cursosdefrances/adultos/curso-frances-general-adultos/";
@@ -236,7 +236,7 @@ var nombreJugador = document.getElementById("nombre").value
   }
     if (Profil6 == 2) {
     document.getElementById("input1").innerHTML = 
-    "Hola"+ " " +nombreJugador + " ¡Eres Raphaël Varane! Tienes paciencia y madurez." + " " +nombreJugador;
+    "Hola"+ " " +nombreJugador + " ¡Eres Raphaël Varane! Tienes paciencia y madurez." 
     document.getElementById("input2").innerHTML = 
     "A ti te gusta vivir las experiencias en una inmersión 100% francesa, prueba nuestros talleres lingüísticos y culturales";
     document.getElementById("myImg").src = 
@@ -247,9 +247,9 @@ var nombreJugador = document.getElementById("nombre").value
 
   if (Profil7 == 1) {
     document.getElementById("input1").innerHTML = 
-    "Hola"+ " " +nombreJugador + "¡Eres Ngolo Kante! Tienes mucha paciencia, eres constante y regular." + " " +nombreJugador;
+    "Hola"+ " " +nombreJugador + "¡Eres Ngolo Kante! Tienes mucha paciencia, eres constante y regular."
     document.getElementById("input2").innerHTML = 
-    "3 horas por semana a tu ritmo, y vuélvete un más francés poco a poco";
+    "3 horas por semana a tu ritmo, y vuélvete más francés poco a poco";
     document.getElementById("myImg").src = 
     "assets/Ngolo.jpg";
     document.getElementById("target").href = "http://www.institutfrancais.es/madrid/cursosdefrances/adultos/curso-frances-general-adultos/";
@@ -257,7 +257,7 @@ var nombreJugador = document.getElementById("nombre").value
   }
     if (Profil8 == 1) {
     document.getElementById("input1").innerHTML = 
-    "Hola"+ " " +nombreJugador + " ¡Eres Raphaël Varane! Tienes precisión y madurez." + " " +nombreJugador;
+    "Hola"+ " " +nombreJugador + " ¡Eres Raphaël Varane! Tienes precisión y madurez." 
     document.getElementById("input2").innerHTML = 
     "A ti te gusta vivir las experiencias en una inmersión 100% francesa, prueba nuestros talleres lingüísticos y culturales";
     document.getElementById("myImg").src = 
