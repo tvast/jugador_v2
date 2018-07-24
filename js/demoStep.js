@@ -226,7 +226,7 @@ var nombreJugador = document.getElementById("nombre").value
   }
    if (Profil5 == 2) {
     document.getElementById("input1").innerHTML = 
-    "Hola"+ " " +nombreJugador + "¡Eres Kylian M’Bappé! Muy rápido, no te lo piensas cuando estás delante del portero, marcas. Muy rápido, eres explosivo." + " " +nombreJugador;
+    "Hola"+ " " +nombreJugador + "¡Eres Kylian M’Bappé! Muy rápido, no te lo piensas cuando estás delante del portero, marcas. Muy rápido, eres explosivo." ;
     document.getElementById("input2").innerHTML = 
     "El curso que te corresponde es el intensivo de francés. ¡Sube un nivel en un mes o 15 días!";
     document.getElementById("myImg").src = 
